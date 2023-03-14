@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,8 +13,10 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="8e66d044-5527-4c31-8541-a76e48ecea41">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler
-select * from countries]]></console>
+      <console name="JDBC" type="STANDARD" schema="public" session="Main"><![CDATA[select * from ogrenciler
+select * from countries
+select * from urunler
+select * from doctor]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -34,7 +36,7 @@ select * from countries]]></console>
     <connections>
       <connection id="8e66d044-5527-4c31-8541-a76e48ecea41" active="true" signed="true">
         <database>
-          <name value="Connection" />
+          <name value="JDBC" />
           <description value="" />
           <database-type value="POSTGRES" />
           <config-type value="BASIC" />

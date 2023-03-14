@@ -1,3 +1,5 @@
+package utililties;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -33,7 +35,11 @@ public class Query05 {
             st.addBatch(w); //Yukarıdaki dataların hepsini birleştiriyor
 
         }
-        st.executeBatch(); //Dataları tek seferde gönderiyor
+       // st.executeBatch(); //Dataları tek seferde gönderiyor
+
+        con.close();
+        st.close();
+        veri.clone();
 
 
     }

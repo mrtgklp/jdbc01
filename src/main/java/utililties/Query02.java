@@ -1,3 +1,5 @@
+package utililties;
+
 import java.sql.*;
 
 public class Query02 {
